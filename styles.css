@@ -1,12 +1,11 @@
 table {
-    border: 1px solid;
     border-collapse: collapse;
   }
 table {
     width: 80%; /* weboldal szélessége */
     background-color: darkgreen;
     color:white;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: "Calibri";
     font-size: 30px;
     text-align: center;
 
@@ -16,4 +15,24 @@ table {
   }
   table th {
     text-align: center;
+  }
+  #ido {
+    background-color: gray;
+    color: darkgreen;
+  }
+  #tervezett {
+    font-size: 15px;
+  }
+  #varhato {
+    font-size: 15px;
+    text-align: left;
+  }
+  #terverk {
+
+  }
+  #varhatoerk {
+    text-align: left;
+  }
+  #vonattipus {
+    text-align: left;
   }
