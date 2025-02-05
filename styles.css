@@ -1,5 +1,9 @@
-table {
-    border-collapse: collapse;
+body{
+  background-color: rgba(0, 0, 0, 0.801);
+}
+table, th, td {
+  border: 1px solid;
+    
   }
 table {
     width: 80%; /* weboldal szélessége */
@@ -8,31 +12,58 @@ table {
     font-family: "Calibri";
     font-size: 30px;
     text-align: center;
+  }
 
-    tr:nth-child(even) {
-      background-color: limegreen;
-    }
-  }
-  table th {
-    text-align: center;
-  }
   #ido {
-    background-color: gray;
+    width: 10%;
+    background-color: white;
     color: darkgreen;
   }
+
+  #ankunft {
+    text-align: center;
+    width: 25%;
+  }
+
+  #erk {
+    text-align: center;
+  }
+
+  #arrivals {
+    text-align: center;
+  }
+
+  #logo {
+    text-align: right;
+  }
+
+
   #tervezett {
     font-size: 15px;
+    text-align: left;
   }
+
   #varhato {
     font-size: 15px;
     text-align: left;
   }
-  #terverk {
 
-  }
-  #varhatoerk {
+  #vonat {
     text-align: left;
   }
+
+  #honnan {
+    text-align: left;
+  }
+
+  tbody {
+    background-color: darkgreen;
+    tr:nth-child(even) {
+      background-color: lightgreen;
+    }
+  }
+
   #vonattipus {
     text-align: left;
+    padding-left: 20px;
   }
